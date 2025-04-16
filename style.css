@@ -1,0 +1,168 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "inter", sans-serif;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+a,
+img,
+button,
+input,
+label,
+textarea,
+select {
+  padding: 0;
+  font-family: inherit;
+  color: inherit;
+  outline: none;
+  border: none;
+}
+
+input,
+textarea {
+  background: transparent;
+}
+
+p,
+ul {
+  margin: 0;
+}
+
+/* Line clamp  */
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+
+/* Header */
+.header {
+  background: #ccc;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 4px 0px;
+}
+
+.header .container-fluid {
+  padding: 0;
+}
+.header__inner {
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  height: 72px;
+  background: linear-gradient(
+    90deg,
+    rgb(112, 7, 7) 0%,
+    rgb(27, 59, 84) 11.9491%,
+    rgba(19, 28, 63, 0.9) 50%,
+    rgb(113, 19, 7) 100%
+  );
+}
+
+.header__logo {
+  width: 78px;
+  height: 53px;
+  margin-left: 32px;
+}
+
+.header__logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header__nav-bar-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header__nav-bar-link {
+  display: block;
+  line-height: 72px;
+  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+    sans-serif;
+  font-size: 2rem;
+  padding: 0 12px;
+  color: #fcf7ee;
+}
+
+.header__action-buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  width: 183px;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgb(237, 180, 57) -3%,
+    rgb(237, 171, 57) 4%,
+    rgb(237, 144, 57) 27%,
+    rgb(237, 144, 57) 40%,
+    rgb(237, 144, 57) 62%,
+    rgb(237, 171, 57) 97%,
+    rgb(237, 180, 57) 103%
+  );
+}
+
+.header__action-buy p {
+  font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fcf7ee;
+  letter-spacing: -0.4px;
+}
+
+.header__decor-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 110px;
+}
+
+.header__decor-right {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+  width: 231px;
+  height: 137px;
+  object-position: center center;
+  transform: rotate(180deg);
+}
