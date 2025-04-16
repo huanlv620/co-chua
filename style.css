@@ -52,7 +52,13 @@ textarea {
 }
 
 p,
-ul {
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -248,9 +254,195 @@ ul {
 
   object-fit: cover;
 }
+/* end of header */
 
-/* responsive header*/
+/* start of marketing */
+.marketing .container-fluid {
+  padding: 0;
+}
+
+.marketing {
+  background: #3c160c;
+}
+
+.marketing__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 96px;
+}
+
+.marketing__sub-heading {
+  background-image: linear-gradient(
+    131deg,
+    rgb(237, 144, 57) 0%,
+    rgb(237, 180, 57) 22.4711%,
+    rgb(237, 153, 57) 51.2192%,
+    rgb(232, 163, 67) 81.2789%,
+    rgb(237, 180, 57) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Nếu cần hỗ trợ Firefox */
+  background-clip: text;
+  color: transparent;
+
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-size: 3.2rem;
+  line-height: 38.4px;
+}
+
+.marketing__heading {
+  background-image: linear-gradient(
+    131deg,
+    rgb(237, 144, 57) 0%,
+    rgb(237, 180, 57) 22.4711%,
+    rgb(237, 153, 57) 51.2192%,
+    rgb(232, 163, 67) 81.2789%,
+    rgb(237, 180, 57) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Nếu cần hỗ trợ Firefox */
+  background-clip: text;
+  color: transparent;
+
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-size: 4.8rem;
+  line-height: 62.4px;
+}
+
+.marketing__text {
+  margin: 32px 0;
+  color: #fcf7ee;
+  font-family: Inter, sans-serif;
+  font-size: 1.8rem;
+  line-height: 25.2px;
+  text-align: center;
+}
+
+.marketing__price {
+  position: relative;
+  color: #eed09999;
+  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+    sans-serif;
+  font-size: 4.8rem;
+  letter-spacing: -0.96px;
+}
+
+.marketing__price::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: -2px;
+  right: 0;
+
+  height: 2px;
+
+  background: linear-gradient(
+    135deg,
+    rgb(237, 180, 57) -3%,
+    rgb(237, 171, 57) 4%,
+    rgb(237, 144, 57) 27%,
+    rgb(237, 144, 57) 40%,
+    rgb(237, 144, 57) 62%,
+    rgb(237, 171, 57) 97%,
+    rgb(237, 180, 57) 103%
+  );
+  transform: rotate(-7deg);
+}
+
+.marketing__sale-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: #eed09999;
+  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+    sans-serif;
+  font-size: 3.2rem;
+  line-height: initial;
+}
+
+.marketing__sale-price span:first-of-type {
+  font-size: 1.6rem;
+}
+
+.marketing__sale-price span:last-of-type {
+  letter-spacing: -1.28px;
+}
+
+.marketing__count-down {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin: 32px 0 17px;
+}
+
+.marketing__count-down-text {
+  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+    sans-serif;
+  font-size: 2rem;
+  color: #eed09999;
+}
+
+.marketing__time-down {
+  color: #fcf7ee;
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+}
+
+.marketing__time-down span {
+  color: #e5b364;
+}
+
+.marketing__btn {
+  position: relative;
+
+  width: 342px;
+  height: 68px;
+  background: linear-gradient(
+    135deg,
+    rgb(237, 180, 57) -3%,
+    rgb(237, 171, 57) 4%,
+    rgb(237, 144, 57) 27%,
+    rgb(237, 144, 57) 40%,
+    rgb(237, 144, 57) 62%,
+    rgb(237, 171, 57) 97%,
+    rgb(237, 180, 57) 103%
+  );
+
+  color: #fcf7ee;
+  font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.marketing__btn:hover {
+  background: linear-gradient(
+    118deg,
+    rgb(26, 100, 148) -3%,
+    rgb(178, 46, 28) 102%
+  );
+}
+
+/* end of marketing */
+
+/* MEDIA RESPONSIVE */
 @media screen and (max-width: 1279.98px) {
+  /* responsive header*/
   .header__inner.xl {
     background: linear-gradient(
       90deg,
@@ -287,11 +479,15 @@ ul {
     height: 483px;
     width: 324px;
   }
+  /* end responsive header*/
 }
 
 @media screen and (max-width: 767px) {
+  /* responsive header*/
   .header__thunder {
     height: 287px;
     width: 192px;
   }
+  /* end responsive header*/
 }
+/* END MEDIA RESPONSIVE */
