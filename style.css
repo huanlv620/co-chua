@@ -409,7 +409,9 @@ h6 {
 }
 
 .marketing__btn {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   width: 342px;
   height: 68px;
@@ -436,6 +438,79 @@ h6 {
     rgb(26, 100, 148) -3%,
     rgb(178, 46, 28) 102%
   );
+}
+
+/* marketing slider */
+
+.marketing .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.marketing .row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.marketing__slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.marketing__slides {
+  display: flex;
+  width: 800%;
+  height: 100%;
+}
+
+.marketing__slides img {
+  width: 12.5%;
+  flex-shrink: 0;
+  height: 100%;
+  object-position: center center;
+  object-fit: cover;
+}
+
+.marketing__btn-prev,
+.marketing__btn-next {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.marketing__btn-next {
+  left: initial;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.marketing__dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.marketing__dot {
+  flex-shrink: 0;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #fcf7ee;
+  opacity: 0.5;
+}
+
+.marketing__dot--active {
+  opacity: 1;
 }
 
 /* end of marketing */

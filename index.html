@@ -168,7 +168,7 @@
         <section class="marketing">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-6">
+              <div class="col-12 col-xl-6">
                 <div class="marketing__left">
                   <h3 class="marketing__sub-heading">Bộ Sản Phẩm Cờ Chúa</h3>
                   <h2 class="marketing__heading">RẠCH ĐÔI SƠN HÀ</h2>
@@ -198,10 +198,49 @@
                       23
                     </p>
                   </div>
-                  <button class="marketing__btn">ĐẶT NGAY</button>
+                  <a href="#!" class="marketing__btn">ĐẶT NGAY</a>
                 </div>
               </div>
-              <div class="col-6">Slider</div>
+              <div class="col-12 col-xl-6">
+                <div class="marketing__slider">
+                  <div class="marketing__slides">
+                    <img
+                      src="https://framerusercontent.com/images/OHJM2kx0zObtowcNTy7uNT6kOU.webp?scale-down-to=2048"
+                      alt="1"
+                    />
+                    <img
+                      src="https://framerusercontent.com/images/rIDg25NJBo83GYouPIvBoFuO4Ew.webp?scale-down-to=2048"
+                      alt="2"
+                    />
+                    <img
+                      src="https://framerusercontent.com/images/rIDg25NJBo83GYouPIvBoFuO4Ew.webp?scale-down-to=2048"
+                      alt="3"
+                    />
+                  </div>
+                  <button class="marketing__btn-prev">
+                    <img
+                      src="https://framerusercontent.com/images/lvDl277iXVJa6fdRw9PuzGnseE.svg"
+                      alt=""
+                    />
+                  </button>
+                  <button class="marketing__btn-next">
+                    <img
+                      src="https://framerusercontent.com/images/lvDl277iXVJa6fdRw9PuzGnseE.svg"
+                      alt=""
+                    />
+                  </button>
+                  <div class="marketing__dots">
+                    <span class="marketing__dot marketing__dot--active"></span>
+                    <span class="marketing__dot"></span>
+                    <span class="marketing__dot"></span>
+                    <span class="marketing__dot"></span>
+                    <span class="marketing__dot"></span>
+                    <span class="marketing__dot"></span>
+                    <span class="marketing__dot"></span>
+                    <span class="marketing__dot"></span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -214,6 +253,35 @@
     </div>
 
     <!-- javascript -->
-    <script src="./script.js"></script>
+    <!-- <script src="./script.js"></script> -->
+    <script>
+      const headerIconMore = document.querySelector(".header__icon-more");
+      const headerIconClose = document.querySelector(".header__icon-close");
+      const headerInner = document.querySelector(".header__inner");
+
+      headerIconMore.onclick = () => {
+        headerIconClose.classList.remove("hide");
+        headerIconMore.classList.add("hide");
+        headerInner.classList.add("xl");
+      };
+
+      headerIconClose.onclick = () => {
+        headerIconClose.classList.add("hide");
+        headerIconMore.classList.remove("hide");
+        headerInner.classList.remove("xl");
+      };
+
+      function checkScreenSize() {
+        if (window.innerWidth > 1280) {
+          headerInner.classList.remove("xl");
+        }
+      }
+
+      // Kiểm tra khi load trang
+      checkScreenSize();
+
+      // Kiểm tra lại khi resize màn hình
+      window.addEventListener("resize", checkScreenSize);
+    </script>
   </body>
 </html>
