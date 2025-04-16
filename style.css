@@ -117,11 +117,11 @@ h6 {
   gap: 48px;
 
   height: 72px;
+
   background: linear-gradient(
     90deg,
-    rgb(112, 7, 7) 0%,
-    rgb(27, 59, 84) 11.9491%,
-    rgba(19, 28, 63, 0.9) 50%,
+    rgba(112, 7, 7, 0.6) 0%,
+    rgb(19, 28, 63) 50%,
     rgb(113, 19, 7) 100%
   );
 
@@ -255,6 +255,10 @@ h6 {
   object-fit: cover;
 }
 /* end of header */
+
+.main {
+  background: #040c2a;
+}
 
 /* start of marketing */
 .marketing .container-fluid {
@@ -512,8 +516,278 @@ h6 {
 .marketing__dot--active {
   opacity: 1;
 }
-
 /* end of marketing */
+
+/* start of story */
+.story {
+  padding: 96px 0;
+  background: #040c2a;
+}
+
+.story-item {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.story-item.reverse {
+  flex-direction: row-reverse;
+}
+
+.story__avatar-wrap {
+  position: relative;
+  width: 444px;
+  height: 511px;
+  flex-shrink: 0;
+}
+
+.store__avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  mask: url("https://framerusercontent.com/images/9ZsctduEbgFhUogcNQFIycrIeW0.svg")
+    center center / cover no-repeat alpha;
+
+  -webkit-mask: url("https://framerusercontent.com/images/9ZsctduEbgFhUogcNQFIycrIeW0.svg")
+    center center / cover no-repeat alpha;
+}
+
+.story__avatar-border {
+  position: absolute;
+  inset: 0;
+}
+
+.story-item__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 64px 48px;
+}
+
+.story__sub-heading {
+  text-transform: uppercase;
+  text-align: center;
+  background-image: linear-gradient(
+    131deg,
+    rgb(237, 144, 57) 0%,
+    rgb(237, 180, 57) 22.4711%,
+    rgb(237, 153, 57) 51.2192%,
+    rgb(232, 163, 67) 81.2789%,
+    rgb(237, 180, 57) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-size: 3.2rem;
+  line-height: 38.4px;
+}
+
+.story__heading {
+  text-transform: uppercase;
+  text-align: center;
+
+  letter-spacing: -1.44px;
+
+  background-image: linear-gradient(
+    131deg,
+    rgb(237, 144, 57) 0%,
+    rgb(237, 180, 57) 22.4711%,
+    rgb(237, 153, 57) 51.2192%,
+    rgb(232, 163, 67) 81.2789%,
+    rgb(237, 180, 57) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Nếu cần hỗ trợ Firefox */
+  background-clip: text;
+  color: transparent;
+
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-size: 4.8rem;
+  line-height: 62.4px;
+}
+
+.story__desc {
+  font-family: Inter, sans-serif;
+  font-size: 1.8rem;
+  color: #fcf7ee;
+  line-height: 25.2px;
+  text-align: center;
+}
+
+.story__desc:first-of-type {
+  margin-top: 32px;
+}
+
+.story__desc + .story__desc {
+  margin-top: 20px;
+}
+/* end of story */
+
+/* start of story mobile */
+.story-mobile {
+  display: none;
+  padding: 16px 0;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.story-mobile__inner {
+  position: relative;
+}
+
+.story-mobile__sliders {
+  display: flex;
+  align-items: center;
+  width: 300%;
+  height: auto;
+}
+
+.story-mobile__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-mobile__slider-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 33.33333%;
+  height: 100%;
+}
+
+.story-mobile__avatar-item-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 267px;
+  height: 305px;
+  background: linear-gradient(135deg, #f2a73d 0%, #eb9e3e 100%);
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
+
+.story-mobile__avatar-wrap {
+  width: 97%;
+  height: 97%;
+
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
+
+.store-mobile__avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-mobile__avatar-border {
+  position: absolute;
+  inset: 0;
+  display: block !important;
+}
+
+.story-mobile__content {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.story-mobile__sub-heading {
+  text-transform: uppercase;
+  text-align: center;
+  background-image: linear-gradient(
+    131deg,
+    rgb(237, 144, 57) 0%,
+    rgb(237, 180, 57) 22.4711%,
+    rgb(237, 153, 57) 51.2192%,
+    rgb(232, 163, 67) 81.2789%,
+    rgb(237, 180, 57) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-size: 1.8rem;
+  line-height: 19.2px;
+}
+
+.story-mobile__heading {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -1.44px;
+  background-image: linear-gradient(
+    131deg,
+    rgb(237, 144, 57) 0%,
+    rgb(237, 180, 57) 22.4711%,
+    rgb(237, 153, 57) 51.2192%,
+    rgb(232, 163, 67) 81.2789%,
+    rgb(237, 180, 57) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-size: 2.4rem;
+  line-height: 28.8px;
+}
+
+.story-mobile__desc {
+  margin-top: 32px;
+  color: #fcf7ee;
+  font-size: 1.4rem;
+  line-height: 19.6px;
+}
+
+.story-mobile__control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  gap: 16px;
+}
+
+.story-mobile__prev {
+}
+
+.story-mobile__next {
+  rotate: 180deg;
+}
+
+.story-mobile__dots {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.story-mobile__dot {
+  flex-shrink: 0;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #fcf7ee;
+  opacity: 0.5;
+}
+
+.story-mobile__dot.active {
+  opacity: 1;
+}
+
+/* end of story mobile */
 
 /* MEDIA RESPONSIVE */
 @media screen and (max-width: 1279.98px) {
@@ -555,14 +829,72 @@ h6 {
     width: 324px;
   }
   /* end responsive header*/
+
+  /* start of story */
+  .story {
+    padding: 32px 0;
+  }
+
+  .story__sub-heading {
+    font-size: 2rem;
+  }
+
+  .story-item__body {
+    padding: 48px 48px;
+  }
+  /* end of story */
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199.98px) {
+  /* start of story */
+  .story__avatar-wrap {
+    width: 400px;
+    height: 459px;
+  }
+  /* end of story */
+}
+
+@media screen and (max-width: 990.98px) {
+  /* start of story */
+  .story__avatar-wrap {
+    width: 323px;
+    height: 371px;
+  }
+
+  .story__heading {
+    font-size: 4.6rem;
+  }
+
+  .story__heading {
+    font-size: 4rem;
+  }
+
+  .story-item__body {
+    padding: 48px 32px;
+  }
+
+  .story__desc {
+    font-size: 1.4rem;
+  }
+  /* end of story */
+}
+
+@media screen and (max-width: 767.98px) {
   /* responsive header*/
   .header__thunder {
     height: 287px;
     width: 192px;
   }
   /* end responsive header*/
+
+  /* start of story */
+  .story {
+    display: none;
+  }
+  /* end of story */
+
+  .story-mobile {
+    display: block;
+  }
 }
 /* END MEDIA RESPONSIVE */
