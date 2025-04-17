@@ -301,6 +301,7 @@ h6 {
 }
 
 .marketing__heading {
+  text-align: center;
   background-image: linear-gradient(
     131deg,
     rgb(237, 144, 57) 0%,
@@ -786,8 +787,232 @@ h6 {
 .story-mobile__dot.active {
   opacity: 1;
 }
-
 /* end of story mobile */
+
+/* start of img-full */
+.img-full .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img-full__wrap {
+  position: relative;
+  width: 100%;
+}
+
+.img-full__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-full__img-over-lay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.2) -90.6742%);
+}
+
+.img-full__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+}
+
+.img-full__sub-heading {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    131deg,
+    rgb(237, 144, 57) 0%,
+    rgb(237, 180, 57) 22.4711%,
+    rgb(237, 153, 57) 51.2192%,
+    rgb(232, 163, 67) 81.2789%,
+    rgb(237, 180, 57) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-size: 3.2rem;
+  line-height: 38.4px;
+  letter-spacing: -1.28px;
+}
+
+.img-full__heading {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    131deg,
+    rgb(237, 144, 57) 0%,
+    rgb(237, 180, 57) 22.4711%,
+    rgb(237, 153, 57) 51.2192%,
+    rgb(232, 163, 67) 81.2789%,
+    rgb(237, 180, 57) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-size: 4.8rem;
+  line-height: 62.4px;
+  letter-spacing: -1.44px;
+}
+/* end of img-full */
+
+/* start of more__text */
+.more {
+  margin: 16px auto;
+  padding: 10px;
+  max-width: 720px;
+  text-align: center;
+}
+
+.more__text {
+  font-family: Inter, sans-serif;
+  font-size: 1.8rem;
+  color: #fcf7ee;
+  line-height: 27px;
+  text-align: center;
+}
+
+.more__text + .more__text {
+  margin-top: 10px;
+}
+
+.more__link {
+  display: block;
+  text-decoration: underline;
+  margin-top: 30px;
+
+  color: #fcf7ee;
+
+  text-transform: uppercase;
+  font-family: "Inter Display", "Inter Display Placeholder", sans-serif;
+  font-size: 2rem;
+}
+/* end of more */
+
+/* start of hero */
+.hero {
+  margin-top: 16px;
+  padding: 48px;
+  text-align: center;
+}
+
+.hero__sub-heading {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    131deg,
+    rgb(237, 144, 57) 0%,
+    rgb(237, 180, 57) 22.4711%,
+    rgb(237, 153, 57) 51.2192%,
+    rgb(232, 163, 67) 81.2789%,
+    rgb(237, 180, 57) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-size: 3.2rem;
+  line-height: 38.4px;
+}
+
+.hero__heading {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    131deg,
+    rgb(237, 144, 57) 0%,
+    rgb(237, 180, 57) 22.4711%,
+    rgb(237, 153, 57) 51.2192%,
+    rgb(232, 163, 67) 81.2789%,
+    rgb(237, 180, 57) 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
+  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+    sans-serif;
+  font-size: 6.2rem;
+  line-height: 80.6px.4px;
+}
+
+.hero__desc {
+  margin: 12px auto 0;
+
+  font-family: Inter, sans-serif;
+  font-size: 2.3rem;
+  color: #fcf7ee;
+  line-height: 32.2px;
+  text-align: center;
+  max-width: 720px;
+}
+
+.hero__img-wrap {
+  margin: 25px auto;
+  height: 378px;
+  max-width: 1344px;
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__img-bottom {
+  gap: 12px;
+  justify-content: center;
+}
+
+.hero__img-item-wrap {
+  position: relative;
+  width: 168px;
+  height: 64px;
+}
+
+.hero__img-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__img-decor {
+  position: absolute;
+  inset: 0;
+}
+/* end of hero */
+
+/* end of img-bottom-border */
+.img-full-border {
+  width: 100%;
+  border-top: 1px solid #dd9333;
+  border-bottom: 1px solid #dd9333;
+}
+
+.img-full-border__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center center;
+}
+/* end of img-bottom-border */
 
 /* MEDIA RESPONSIVE */
 @media screen and (max-width: 1279.98px) {
@@ -843,6 +1068,16 @@ h6 {
     padding: 48px 48px;
   }
   /* end of story */
+
+  /* start img-full*/
+  .img-full__img {
+    max-height: 858px;
+  }
+
+  .img-full__sub-heading {
+    font-size: 2rem;
+  }
+  /* end img-full*/
 }
 
 @media screen and (max-width: 1199.98px) {
@@ -893,8 +1128,25 @@ h6 {
   }
   /* end of story */
 
+  /* start of story mobile */
   .story-mobile {
     display: block;
   }
+  /* end of story mobile */
+
+  /* start img-full*/
+
+  .img-full__sub-heading {
+    font-size: 1.6rem;
+    line-height: 19.2px;
+    letter-spacing: -0.64px;
+  }
+
+  .img-full__heading {
+    font-size: 2.4rem;
+    letter-spacing: -0.96px;
+    line-height: 28.8px;
+  }
+  /* end img-full*/
 }
 /* END MEDIA RESPONSIVE */
