@@ -17,6 +17,8 @@ headerIconClose.onclick = () => {
 function checkScreenSize() {
   if (window.innerWidth > 1280) {
     headerInner.classList.remove("xl");
+    headerIconClose.classList.add("hide");
+    headerIconMore.classList.remove("hide");
   }
 }
 
