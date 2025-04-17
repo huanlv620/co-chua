@@ -370,7 +370,7 @@ h6 {
   align-items: center;
   gap: 8px;
 
-  color: #eed09999;
+  color: #fcf7ee;
   font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
     sans-serif;
   font-size: 3.2rem;
@@ -1319,6 +1319,12 @@ h6 {
   }
   /* end responsive header*/
 
+  /* start of marketing */
+  .marketing__sub-heading {
+    font-size: 2rem;
+  }
+  /* end of marketing */
+
   /* start of story */
   .story {
     padding: 32px 0;
@@ -1443,6 +1449,33 @@ h6 {
     width: 192px;
   }
   /* end responsive header*/
+
+  /* start of marketing */
+  .marketing__sub-heading {
+    line-height: 19.2px;
+    letter-spacing: -0.64px;
+    font-size: 1.6rem;
+  }
+
+  .marketing__heading {
+    line-height: 28.8px;
+    font-size: 2.4rem;
+    letter-spacing: -0.96px;
+  }
+
+  .marketing__text {
+    font-size: 1.4rem;
+    margin: 16px 0 0;
+  }
+
+  .marketing__sale-price {
+    font-size: 1.6rem;
+  }
+
+  .marketing__count-down {
+    margin-top: 0;
+  }
+  /* end of marketing */
 
   /* start of story */
   .story {
