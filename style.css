@@ -160,9 +160,10 @@ h6 {
 .header__nav-bar-link {
   display: block;
   line-height: 72px;
-  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+  font-family: "Beaufort for LOL", "Beaufort for LOL Medium Placeholder",
     sans-serif;
   font-size: 2rem;
+  font-weight: 500;
   padding: 0 12px;
   color: #fcf7ee;
   text-transform: uppercase;
@@ -195,9 +196,10 @@ h6 {
 
 .header__nav-bar-mobile a {
   display: block;
-  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+  font-family: "Beaufort for LOL", "Beaufort for LOL Medium Placeholder",
     sans-serif;
   font-size: 1.8rem;
+  font-weight: 500;
   color: #fcf7ee;
   padding: 8px 8px;
 }
@@ -367,7 +369,8 @@ a.header__nav-bar-mobile-btn:hover {
   background-clip: text;
   color: transparent;
 
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 3.2rem;
   line-height: 38.4px;
@@ -391,7 +394,8 @@ a.header__nav-bar-mobile-btn:hover {
   background-clip: text;
   color: transparent;
 
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 4.8rem;
   line-height: 62.4px;
@@ -409,9 +413,10 @@ a.header__nav-bar-mobile-btn:hover {
 .marketing__price {
   position: relative;
   color: #eed09999;
-  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+  font-family: "Beaufort for LOL", "Beaufort for LOL Medium Placeholder",
     sans-serif;
   font-size: 4.8rem;
+  font-weight: 500;
   letter-spacing: -0.96px;
 }
 
@@ -443,9 +448,10 @@ a.header__nav-bar-mobile-btn:hover {
   gap: 8px;
 
   color: #fcf7ee;
-  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+  font-family: "Beaufort for LOL", "Beaufort for LOL Medium Placeholder",
     sans-serif;
   font-size: 3.2rem;
+  font-weight: 500;
   line-height: initial;
 }
 
@@ -466,9 +472,10 @@ a.header__nav-bar-mobile-btn:hover {
 }
 
 .marketing__count-down-text {
-  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+  font-family: "Beaufort for LOL", "Beaufort for LOL Medium Placeholder",
     sans-serif;
   font-size: 2rem;
+  font-weight: 500;
   color: #eed09999;
 }
 
@@ -476,7 +483,8 @@ a.header__nav-bar-mobile-btn:hover {
   display: flex;
 
   color: #fcf7ee;
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-weight: 500;
   font-size: 2.8rem;
@@ -662,7 +670,8 @@ a.header__nav-bar-mobile-btn:hover {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 3.2rem;
   line-height: 38.4px;
@@ -690,7 +699,8 @@ a.header__nav-bar-mobile-btn:hover {
   background-clip: text;
   color: transparent;
 
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 4.8rem;
   line-height: 62.4px;
@@ -797,7 +807,8 @@ a.header__nav-bar-mobile-btn:hover {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 1.8rem;
   line-height: 19.2px;
@@ -819,7 +830,8 @@ a.header__nav-bar-mobile-btn:hover {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 2.4rem;
   line-height: 28.8px;
@@ -916,7 +928,8 @@ a.header__nav-bar-mobile-btn:hover {
   background-clip: text;
   color: transparent;
 
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 3.2rem;
   line-height: 38.4px;
@@ -939,7 +952,8 @@ a.header__nav-bar-mobile-btn:hover {
   background-clip: text;
   color: transparent;
 
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 4.8rem;
   line-height: 62.4px;
@@ -1003,7 +1017,8 @@ a.header__nav-bar-mobile-btn:hover {
   background-clip: text;
   color: transparent;
 
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 3.2rem;
   line-height: 38.4px;
@@ -1025,7 +1040,8 @@ a.header__nav-bar-mobile-btn:hover {
   background-clip: text;
   color: transparent;
 
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 6.2rem;
   line-height: 80.6px.4px;
@@ -1115,7 +1131,8 @@ a.header__nav-bar-mobile-btn:hover {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 3.2rem;
   line-height: 38.4px;
@@ -1135,7 +1152,8 @@ a.header__nav-bar-mobile-btn:hover {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  font-family: "Beaufort for LOL Bold", "Beaufort for LOL Bold Placeholder",
+  font-weight: bold;
+  font-family: "Beaufort for LOL", "Beaufort for LOL Bold Placeholder",
     sans-serif;
   font-size: 6.2rem;
   line-height: 80.6px.4px;
@@ -1207,18 +1225,20 @@ a.header__nav-bar-mobile-btn:hover {
 }
 
 .discover__item-category {
-  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+  font-family: "Beaufort for LOL", "Beaufort for LOL Medium Placeholder",
     sans-serif;
   font-size: 2rem;
+  font-weight: 500;
   line-height: 26px;
   letter-spacing: -0.4px;
   color: #f7e9ce;
 }
 
 .discover__item-name {
-  font-family: "Beaufort for LOL Medium", "Beaufort for LOL Medium Placeholder",
+  font-family: "Beaufort for LOL", "Beaufort for LOL Medium Placeholder",
     sans-serif;
   font-size: 2.3rem;
+  font-weight: 500;
   line-height: 27.6px;
   letter-spacing: -0.46px;
   color: #f7e9ce;
